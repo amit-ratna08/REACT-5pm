@@ -1,15 +1,17 @@
+
 import React from 'react'
-import OnCLickCompo from './Hoc/OnCLickCompo'
-import OnMouseHoverCompo from './Hoc/OnMouseHoverCompo'
-import KeyDownCompo from './Hoc/KeyDownCompo'
+import StateUpCompo from './ADTopic/StateUpCompo'
 
 const App = () => {
+    // let data="abcd"
+
+    function fundata(name){
+        alert("HELLO APTRON"+"    "+name)
+    }
+
   return (
     <div>
-      <OnCLickCompo />
-      <OnMouseHoverCompo />
-      <KeyDownCompo />
-
+      <StateUpCompo fun={fundata} />
     </div>
   )
 }

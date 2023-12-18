@@ -1,17 +1,10 @@
-
 import React from 'react'
-import StateUpCompo from './ADTopic/StateUpCompo'
+import AxiosCompo from './axios/AxiosCompo'
 
 const App = () => {
-    // let data="abcd"
-
-    function fundata(name){
-        alert("HELLO APTRON"+"    "+name)
-    }
-
   return (
     <div>
-      <StateUpCompo fun={fundata} />
+      <AxiosCompo />
     </div>
   )
 }
